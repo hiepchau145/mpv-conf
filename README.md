@@ -3,7 +3,7 @@ R5-2600 | B450 Tomahawk | 1050Ti | Windows 11
 
 
 1. Open Windows PowerShell 
-<code>Set-ExecutionPolicy RemoteSigned -Scope CurrentUser # Optional: Needed to run a remote script the first time</code>
+<code>Set-ExecutionPolicy RemoteSigned -Scope CurrentUser</code>
 <code>irm get.scoop.sh | iex</code>
 
 2. Install git and add extras 
